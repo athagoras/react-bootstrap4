@@ -1,0 +1,19 @@
+//For demo use, you can delete it.
+#app{
+    & {
+        height: 100%;
+    }
+
+    & main, & .jumbotron {
+        height: inherit;
+    }
+
+    & .jumbotron {
+        margin-bottom: 0;
+        & h1 {
+            word-wrap: break-word;
+            hyphens: manual;
+        }
+    }
+} 
+
